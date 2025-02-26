@@ -1,18 +1,28 @@
 import React from 'react';
 import './index.css';
+import profileImage from './veer.jpg'
 
 function App() {
   return (
     <div className="min-h-screen bg-black text-white">
       <div className="max-w-5xl mx-auto px-8 md:px-12 lg:px-16">
-        <header className="py-20 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">Hi, I'm <span className="text-yellow-400">Veeraj Singh</span> 👋</h1>
-          <p className="max-w-2xl mx-auto text-gray-300 text-lg leading-relaxed">
-            Software Developer with a passion for building beautiful content.<br></br>
-            I build fun, interactive projects for you to explore and enjoy.<br></br>
+
+      <header className="py-20 text-center md:text-left flex flex-col md:flex-row items-center justify-center md:justify-between">
+        <div className="max-w-2xl">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4">
+            Hi, I'm <span className="text-yellow-400">Veeraj Singh</span> 👋
+          </h1>
+          <p className="text-gray-300 text-lg leading-relaxed">
+            Software Developer with a passion for building beautiful content.<br />
+            I build fun, interactive projects for you to explore and enjoy.<br />
             Interested in applying technical expertise in a dynamic and challenging environment.
           </p>
-        </header>
+        </div>
+        
+        <div className="mt-8 md:mt-0">
+          <img src={profileImage} alt="Profile" className="w-30 h-30 md:w-40 md:h-46 rounded-full object-cover" />
+        </div>
+      </header>
 
         <section className="py-12">
           <h2 className="text-3xl font-bold mb-8 border-b border-gray-800 pb-4">Internship Experience</h2>
