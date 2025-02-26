@@ -90,7 +90,7 @@ function App() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg transform transition-all hover:scale-105 hover:shadow-xl">
               <div className="bg-emerald-400 p-2 h-56 flex items-center justify-center">
                 <img src="https://files.catbox.moe/dbh106.png" alt="DevMatch" className="h-full w-full object-cover" />
