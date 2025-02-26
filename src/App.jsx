@@ -8,8 +8,9 @@ function App() {
         <header className="py-20 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Hi, I'm <span className="text-yellow-400">Veeraj Singh</span> 👋</h1>
           <p className="max-w-2xl mx-auto text-gray-300 text-lg leading-relaxed">
-            Software Developer with a passion for building beautiful content. I build fun, interactive projects for you to
-            explore and enjoy. Interested in applying technical expertise in a dynamic and challenging environment.
+            Software Developer with a passion for building beautiful content.<br></br>
+            I build fun, interactive projects for you to explore and enjoy.<br></br>
+            Interested in applying technical expertise in a dynamic and challenging environment.
           </p>
         </header>
 
@@ -81,7 +82,7 @@ function App() {
           
           <div className="grid grid-cols-1 grid-cols-2 gap-8">
             <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg transform transition-all hover:scale-105 hover:shadow-xl">
-              <div className="bg-green-700 p-2 h-56 flex items-center justify-center">
+              <div className="bg-emerald-400 p-2 h-56 flex items-center justify-center">
                 <img src="https://files.catbox.moe/dbh106.png" alt="DevMatch" className="h-full w-full object-cover" />
               </div>
               <div className="p-6">
@@ -128,7 +129,7 @@ function App() {
             </div>
 
             <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg transform transition-all hover:scale-105 hover:shadow-xl">
-              <div className="bg-green-900 p-2 h-56 flex items-center justify-center">
+              <div className="bg-neutral-50 p-2 h-56 flex items-center justify-center">
                 <img src="" alt="Assets exchange platform" className="h-full w-full object-cover" />
               </div>
               <div className="p-6">
